@@ -13,11 +13,16 @@ function soma() {
 }
 function subtração(){
     resultado = n1 - n2;
-    alert(`${n1} + ${n2} = ${resultado}`); 
+    alert(`${n1} - ${n2} = ${resultado}`); 
 }
 function multiplicação(){
     resultado = n1 * n2;
-    alert(`${n1} + ${n2} = ${resultado}`);
+    alert(`${n1} - ${n2} = ${resultado}`);
+}
+
+function divisãoReal(){
+    resultado = n1 / n2;
+    alert(`${n1} / ${n2} = ${resultado}`);  
 }
 
 if (operacao == 1){
