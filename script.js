@@ -5,10 +5,16 @@ let n1= Number(prompt('Insira o primeiro valor:'));
 let n2= Number(prompt('Insira um segundo valor:'));
 let resultado;
 
+// definir funções
 function soma() {
     resultado = n1 + n2;
+// mostrando o resultado usando template strings
     alert(`${n1} + ${n2} = ${resultado}`);  
-    
+}
+
+function subtração(){
+    resultado = n1 - n2;
+    alert(`${n1} + ${n2} = ${resultado}`); 
 }
 
 if (operacao == 1){
