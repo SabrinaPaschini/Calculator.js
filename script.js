@@ -1,5 +1,5 @@
 function calculadora(){
-    const operacao = Number(prompt('Escolha uma operação:\n 1 - Soma (+)\n 2 - subtração (-)\n  3 - multiplicação (*)\n 4 - divisãoReal (/)\n 5- DivisãoInteira(%)\n 6 - Potenciação (**)\n'));
+    const operacao = Number(prompt('Escolha uma operação:\n 1 - Soma (+)\n 2 - subtração (-)\n 3 - multiplicação (*)\n 4 - divisãoReal (/)'));
 
 let n1=Number(prompt('Insira o primeiro valor:'));
 let n2=Number(prompt('Insira um segundo valor:'));
@@ -17,13 +17,14 @@ function subtração(){
 }
 function multiplicação(){
     resultado = n1 * n2;
-    alert(`${n1} - ${n2} = ${resultado}`);
+    alert(`${n1}  ${n2} = ${resultado}`);
 }
 
 function divisãoReal(){
     resultado = n1 / n2;
-    alert(`${n1} / ${n2} = ${resultado}`);  
+    alert(`${n1} / ${n2} = ${resultado}`);    
 }
+
 
 if (operacao == 1){
     soma();
@@ -33,13 +34,8 @@ if (operacao == 1){
     multiplicação();
 } else if ( operacao == 4){
     divisãoReal();
-} else if (operacao == 5){
-    divisãoInteira();
-}
-else if (operacao == 6){
-    potenciação();
-}
-}
+}}
+
 calculadora();
 
 
